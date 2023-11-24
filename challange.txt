@@ -1,0 +1,26 @@
+Coding Challenge – Personal Blog
+Please organize, design, test, document and deploy your code as if it were going into
+production, then send us a link to the hosted repository (Github, Gitlab or Bitbucket).
+Your Mission
+To create a simple blog website that allows users to add new articles and edit and
+delete articles.
+Product Requirements
+• As a user, I should be able to add new articles and view, edit, and delete articles
+that are already created.
+• You will also have to develop the backend for the app that will handle all the blog
+data.
+• There should be a frontend application that has all the UI elements for the blog
+and makes use of the backend API to consume data and save data.
+Tech Requirements
+• React js
+• Node js (backend)
+• Code Linter (eslint, prettier and style lint)
+• Tests: Jest + react-testing-library / enzyme
+We value quality over feature-completeness. It is fine to leave things aside provided you
+call them out in your project’s README. The goal of this code sample is to help us
+identify what you consider production-ready code. You should consider this code ready
+for final review with your colleague, i.e. this would be the last step before deploying to
+production.
+Design
+Please come up with a design for the page and implement it to fulfill the requirements
+above. User experience should be kept in mind when designing.
