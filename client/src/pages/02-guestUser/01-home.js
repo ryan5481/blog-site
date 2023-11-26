@@ -6,7 +6,6 @@ import ArticlesGrid from '../../components/grids/articlesGrid'
 
 const baseUrl = process.env.REACT_APP_BASE_URL
 
-
 const Home = () => {
     const [articlesList, setArticlesList] = useState([])
 
@@ -15,8 +14,6 @@ const Home = () => {
         const data = res.data.data;
         setArticlesList(data.reverse());
     }
-
-    // console.log(articlesList)
 
     useEffect(() => {
         fetchArticles()
